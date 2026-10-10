@@ -1,0 +1,119 @@
+Director, Customer Compensation & Policy
+HelloFresh | Warszawa, Masovian Voivodeship, Poland
+https://careers.hellofresh.com/global/en/job/8195646?gh_jid=8195646
+Posted: 2026-09-24
+Salary: not posted
+
+About the Role 
+
+Within Global Customer Experience (GCX), our mission is to advance the HelloFresh customer relationship from reactive resolution to proactive, trust-building service. The compensation function sits at the heart of that mission: it is the mechanism through which the business acknowledges failures, restores customer confidence, and, when done well, turns a bad experience into a reason to stay.
+
+The Associate Director, Customer Compensation & Policy is responsible for the global strategy, architecture, and governance of how HelloFresh compensates customers across all markets and brands. This is not a policy maintenance role. It is a strategic function that sits at the intersection of customer economics, operational data, behavioral experimentation, and cross-functional influence.
+
+You will own one of the most financially material and customer-sensitive levers in the business. You will shape a multi-year roadmap and hold peers in Operations, Technology, Finance, and Market Leadership accountable for the quality of inputs that determine how well and how efficiently we recover customer trust.
+
+The ideal candidate brings a rare combination: analytical rigor sharp enough to architect a global compensation engine from first principles, and the executive presence to drive adoption across a complex, multi-market organization without formal authority over most of the people they need to move.
+
+What You'll Own 
+
+ Global Compensation Strategy & Engine Architecture
+
+Own the end-to-end strategic vision for how HelloFresh categorizes customer errors and determines compensation across all markets, brands, and contact channels.
+
+Lead the design and continuous evolution of the compensation engine: along with Tech, you’ll define the the rules, thresholds, segmentation logic, and automation frameworks that govern recovery decisions at scale.
+
+Define the principles that govern trade-offs between customer generosity and cost discipline and translate those principles into operational rules that hold across market complexity and brand variation.
+
+Partner with Technology to ensure the compensation engine is scalable, auditable, and capable of supporting dynamic, AI-assisted decisioning as the product evolves.
+
+Experimentation & Behavioral Economics
+
+Set the global roadmap for compensation experimentation: A/B testing across offer types, value levels, channel timing, and segmentation variables.
+
+Apply behavioral economics frameworks to compensation design understanding how recovery offers shape long-term retention, repurchase behavior, and brand perception, not just immediate satisfaction.
+
+Define the measurement framework for experimentation: what constitutes a successful test, what confidence warrants global rollout, and how results are synthesized into durable policy change.
+
+Partner with Analytics & Insights to ensure test design, sample integrity, and rollout analysis meet a rigorous standard of evidence.
+
+Financial Stewardship & Cost Governance
+
+Own the global compensation P&L line: tracking spend by market, error category, customer segment, and channel — and holding yourself accountable to defined cost-per-incident and avoidable-contact targets.
+
+Identify and close financial leakage: cases where compensation is being issued without policy justification, at incorrect values, or at the wrong frequency.
+
+Build the reporting infrastructure that makes compensation economics visible to GCX leadership, market GMs, and Finance — with the granularity and context needed to drive decisions.
+
+Define the right balance between cost optimization and customer lifetime value investment: not just 'spend less' but 'spend where it earns back.
+
+Fraud Policy & Global Governance
+
+Own the global fraud and abuse prevention framework: the policies, detection logic, thresholds, and escalation paths that protect the business without creating friction for genuine customers.
+
+Lead the governance rhythm for policy: quarterly reviews, market exception management, escalation adjudication, and framework versioning across a multi-brand, multi-market environment.
+
+Act as the final authority on complex, cross-market policy gaps — resolving ambiguity with speed, consistency, and strategic clarity rather than routing decisions upward by default.
+
+Maintain global standards while creating principled space for market-level adaptation where local context genuinely requires it.
+
+Cross-Functional Leadership & Stakeholder Accountability
+
+Represent the compensation function in senior forums translating customer economics into requirements that peers in Operations, Technology, Finance, and Market GMs must respond to.
+
+Hold cross-functional partners accountable for the upstream data quality, operational accuracy, and system reliability that the compensation engine depends on.
+
+Drive adoption of policy changes across markets and brands, building communication and change management plans that make new frameworks land — not just launch.
+
+Influence at VP and Director level across multiple functions; escalate only strategic blockers, not routine alignment.
+
+What You'll Bring 
+
+Education
+
+MBA or equivalent postgraduate qualification required.
+
+Undergraduate degree in Economics, Business, Engineering, or a quantitative discipline.
+
+Experience
+
+8–12 years of progressive experience in customer strategy, pricing, operations, or a directly adjacent domain with meaningful exposure to global, multi-market environments.
+
+Demonstrated track record of owning a financially significant operational lever and managing it with both analytical precision and strategic judgment.
+
+Prior experience leading and developing teams; comfort operating as a senior individual contributor and a people leader simultaneously.
+
+Background in subscription commerce, logistics, or consumer-facing operations strongly preferred. Familiarity with the economics of customer recovery in high-volume, low-margin environments is a distinct advantage.
+
+Technical & Analytical
+
+Advanced proficiency in SQL and data analysis; able to build and pressure-test the analytical models that underpin policy decisions without delegating the logic to others.
+
+Fluency with experimentation methodology: test design, statistical significance, holdout analysis, and the translation of results into policy not just reporting.
+
+Experience working with or alongside engineering teams to define product and system requirements for rules-based or AI-assisted decisioning tools.
+
+Comfort with financial modeling: building the business case for compensation investment, forecasting spend impact, and tracking actuals against plan.
+
+Leadership & Influence
+
+Senior executive presence: able to walk into a GM, COO, or CFO conversation with a clear point of view, defend it under pressure, and leave with alignment.
+
+A credible voice with peers and upward stakeholders not because of title, but because of the quality of analysis and clarity of communication.
+
+Structured and decisive under ambiguity: able to make a defensible call with incomplete information and adjust as evidence develops.
+
+Genuinely collaborative across markets and functions able to hold people to standards without damaging the relationships needed to sustain them.
+
+What we offer
+
+Health - You’re covered from your first day with private health insurance.
+
+Flexible Working - We work in-office 3 days a week to align on goals, with flexible hours to support work-life balance and personal needs
+
+Time Off - You receive 26 days of paid vacation each year, providing you time to rest and recharge.
+
+Learning and Development - An annual Learning & Development budget and a Mentoring Program to support your ongoing professional growth.
+
+Employee Referral Program - Our team members can take part in our internal employee referral program and receive a bonus for recommending successful candidates to open roles.
+
+Daily Comforts - Free coffee, drinks, and fresh fruit are available to keep you refreshed throughout the day

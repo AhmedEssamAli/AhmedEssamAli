@@ -9,7 +9,7 @@ Runs on Ahmed's computer in Claude desktop with Claude in Chrome. Never in an un
 
 ## Inputs
 - `jobs/tracker.csv` rows with `status = shortlisted`, highest `fit_score` first.
-- `jobs/tailored/<id>/resume.pdf` and `cover_letter.txt` for each row.
+- `jobs/tailored/<id>/Ahmed_Essam_Ali_Resume.docx` (upload to ATS portals) and `.pdf`, plus `cover_letter.txt`. Never upload the master resume.
 - `profile/career.yaml` for every answer. Never invent a fact.
 
 ## Steps

@@ -305,9 +305,21 @@ def job_ad_checks(paths, resume_text):
 
 
 def main():
+    # Optional: --pdf <file> --yaml <file> to check a per-job tailored resume.
+    global PDF, CAREER
+    args = sys.argv[1:]
+    for flag in ("--pdf", "--yaml"):
+        if flag in args:
+            i = args.index(flag)
+            value = Path(args[i + 1])
+            if flag == "--pdf":
+                PDF = value
+            else:
+                CAREER = value
+            del args[i:i + 2]
     resume_text = resume_checks()
-    if len(sys.argv) > 1:
-        job_ad_checks(sys.argv[1:], resume_text)
+    if args:
+        job_ad_checks(args, resume_text)
     sys.exit(1 if not all(results) else 0)
 
 

@@ -1,0 +1,17 @@
+CX Transformation Manager (Europe, Hybrid - Lisbon or Remote EU)
+
+About the role
+We are looking for a CX Transformation Manager to design and deliver customer experience improvements across our European client base. You will work across operations, technology and client teams to modernise how customers interact with our clients' brands.
+
+What you will do
+You will lead transformation programmes that improve customer experience and reduce cost to serve. This includes mapping end-to-end journeys, defining KPI frameworks, and tracking CSAT, NPS and first contact resolution. You will build the business case for digital transformation and automation initiatives, including chatbot deployment, self-service and omnichannel routing.
+
+You will act as the link between clients and delivery teams, leading stakeholder management, change management and training for agents and supervisors. You will run process improvement workshops using root cause analysis and Lean Six Sigma tools.
+
+You will support budget planning and forecasting for transformation programmes, and monitor the operational impact on SLA and quality. Dashboards in Power BI and data analysis in SQL or Python are part of the role.
+
+What you bring
+Six or more years in customer operations, BPO or consulting, with a track record of delivering measurable operational improvement. Experience with program launch and go-live management is important. Familiarity with COPC or ISO quality frameworks, and with generative AI tools, is an advantage. Fluency in English is required; a second European language is welcome.
+
+What we offer
+Hybrid working, a learning budget, and a team that values continuous improvement and ownership.

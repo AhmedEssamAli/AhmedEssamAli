@@ -1,0 +1,23 @@
+# Search and scoring criteria for the weekly job routine.
+role_families:
+  ops_leadership: [Director of Operations, Senior Operations Manager, Head of Contact Center, Contact Center Director, Head of Customer Experience, VP Customer Operations]
+  client_management: [Client Services Director, Account Director, Strategic Account Manager, Client Partner, Head of Client Services]
+  transformation: [CX Transformation Manager, Digital Transformation Manager, Customer Operations Excellence Lead, AI Operations Lead]
+  consulting: [Contact Center Consultant, CX Consultant, COPC Consultant, Fractional Head of CX]
+locations: [Remote, United Arab Emirates, Saudi Arabia, Canada, United States, United Kingdom, Ireland, Netherlands, Germany, Portugal, Spain, Poland]
+sources: [LinkedIn Jobs, Indeed, Bayt, GulfTalent, Glassdoor, company career pages]
+seniority: [Manager, Senior Manager, Director, Head]
+exclude:
+  - Teleperformance / TP postings (confidentiality)
+  - roles requiring security clearance or citizenship
+  - agent, team leader or supervisor level
+  - postings older than 21 days
+salary_floor: TBD  # Ahmed sets after week 1. Until then, use market estimates only.
+weekly_target: 15
+scoring:  # 0-100
+  title_and_seniority_fit: 30
+  keyword_match_vs_resume: 30
+  industry (BPO, CX, contact center, telecom, e-commerce, travel, tech): 20
+  location_and_visa_feasibility: 10
+  salary_vs_estimate: 10
+min_score_to_shortlist: 65

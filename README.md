@@ -8,6 +8,8 @@
 | `resume/output/` | Master resume (DOCX, PDF). |
 | `linkedin/profile.md` | LinkedIn text that matches the resume. |
 | `jobs/criteria.yaml` | Roles, locations, scoring. |
+| `jobs/discover_api.py` + `employers.yaml` | Pulls open roles with full ads from 64 employers via public ATS APIs. `python3 jobs/discover_api.py --out DIR` |
+| `jobs/JOB_ALERTS.md` | Job-alert emails as the main discovery channel. |
 | `jobs/tracker.csv` | Every job found, applied and its outcome. |
 | `jobs/TAILORING.md` | Rules for per-job resume tailoring and ATS gates. |
 | `jobs/tailored/<id>/` | Per-job ad, resume, cover letter. |

@@ -1,0 +1,74 @@
+# Verified 2026-10-10: each returned HTTP 200 + valid JSON with open jobs.
+# ats: greenhouse | lever | ashby | smartrecruiters | workable
+
+bpo:
+  - {name: "TELUS Digital", ats: ashby, slug: telus-digital}
+  - {name: "TTEC", ats: lever, slug: ttecdigital}
+  - {name: "Sutherland", ats: smartrecruiters, slug: sutherland}
+  - {name: "Alorica", ats: smartrecruiters, slug: alorica}
+  - {name: "Endava", ats: smartrecruiters, slug: endava}
+  - {name: "TCS", ats: greenhouse, slug: tcs}
+
+cx_software:
+  - {name: "Five9", ats: greenhouse, slug: five9}
+  - {name: "NICE", ats: greenhouse, slug: nice}
+  - {name: "Cresta", ats: greenhouse, slug: cresta}
+  - {name: "Observe.AI", ats: greenhouse, slug: observeai}
+  - {name: "Intercom", ats: greenhouse, slug: intercom}
+  - {name: "Dialpad", ats: greenhouse, slug: dialpad}
+  - {name: "Qualtrics", ats: greenhouse, slug: qualtrics}
+  - {name: "LivePerson", ats: greenhouse, slug: liveperson}
+  - {name: "Twilio", ats: greenhouse, slug: twilio}
+  - {name: "Vonage", ats: greenhouse, slug: vonage}
+  - {name: "Bandwidth", ats: greenhouse, slug: bandwidth}
+  - {name: "Parloa", ats: greenhouse, slug: parloa}
+  - {name: "PolyAI", ats: greenhouse, slug: polyai}
+  - {name: "Celonis", ats: greenhouse, slug: celonis}
+  - {name: "Gorgias", ats: ashby, slug: gorgias}
+  - {name: "Help Scout", ats: ashby, slug: helpscout}
+  - {name: "Kustomer", ats: ashby, slug: kustomer}
+  - {name: "Glia", ats: ashby, slug: glia}
+  - {name: "Decagon", ats: ashby, slug: decagon}
+  - {name: "Sierra", ats: ashby, slug: sierra}
+  - {name: "Zowie", ats: ashby, slug: zowie}
+  - {name: "Replicant", ats: ashby, slug: replicant}
+  - {name: "Zapier", ats: ashby, slug: zapier}
+  - {name: "Aircall", ats: lever, slug: aircall}
+  - {name: "Freshworks", ats: smartrecruiters, slug: freshworks}
+  - {name: "ServiceNow", ats: smartrecruiters, slug: servicenow}
+
+consulting:
+  - {name: "Thoughtworks", ats: greenhouse, slug: thoughtworks}
+  - {name: "BearingPoint", ats: greenhouse, slug: bearingpoint}
+  - {name: "WPP", ats: greenhouse, slug: wpp}
+  - {name: "Ogilvy", ats: greenhouse, slug: ogilvy}
+  - {name: "Oliver Wyman", ats: lever, slug: oliverwyman}
+
+gulf_and_emea_brands:
+  - {name: "Careem", ats: greenhouse, slug: careem}
+  - {name: "Tamara", ats: greenhouse, slug: tamara}
+  - {name: "Ziina", ats: ashby, slug: ziina}
+  - {name: "Yassir", ats: smartrecruiters, slug: yassir}
+  - {name: "Namshi", ats: smartrecruiters, slug: namshi}
+  - {name: "Deliveroo", ats: greenhouse, slug: deliveroo}
+  - {name: "Delivery Hero", ats: smartrecruiters, slug: deliveryhero}
+  - {name: "Wolt", ats: greenhouse, slug: wolt}
+  - {name: "Cabify", ats: greenhouse, slug: cabify}
+  - {name: "GetYourGuide", ats: greenhouse, slug: getyourguide}
+  - {name: "Trivago", ats: greenhouse, slug: trivago}
+  - {name: "Omio", ats: smartrecruiters, slug: omio}
+  - {name: "Airbnb", ats: greenhouse, slug: airbnb}
+  - {name: "Wise", ats: greenhouse, slug: wise}
+  - {name: "N26", ats: greenhouse, slug: n26}
+  - {name: "Monzo", ats: greenhouse, slug: monzo}
+  - {name: "GoCardless", ats: greenhouse, slug: gocardless}
+  - {name: "Adyen", ats: greenhouse, slug: adyen}
+  - {name: "Mollie", ats: ashby, slug: mollie}
+  - {name: "SumUp", ats: greenhouse, slug: sumup}
+  - {name: "HelloFresh", ats: greenhouse, slug: hellofresh}
+  - {name: "Canva", ats: smartrecruiters, slug: canva}
+  - {name: "Contentful", ats: greenhouse, slug: contentful}
+  - {name: "Lyft", ats: greenhouse, slug: lyft}
+  - {name: "Stripe", ats: greenhouse, slug: stripe}
+  - {name: "BlaBlaCar", ats: lever, slug: blablacar}
+  - {name: "Trade Republic", ats: greenhouse, slug: traderepublic}

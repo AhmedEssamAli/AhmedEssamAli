@@ -2,11 +2,13 @@
 
 Why: Bayt and GulfTalent block bots, and LinkedIn, Indeed and Glassdoor need a login. Job-alert emails reach Gmail with no scraping. The weekly routine reads them from the Gmail label `Job Alerts`.
 
-## 1. Gmail label and filter
-1. Create label `Job Alerts`.
-2. Create a filter: From contains `jobalerts-noreply@linkedin.com OR alert@indeed.com OR alert@indeedmail.com OR bayt.com OR gulftalent.com OR naukrigulf.com OR glassdoor.com` → Apply label `Job Alerts`, Never send to Spam. (Check the real sender of the first alert from each site and add it if it differs.)
+## 1. Gmail (done by Claude, 2026-10-10)
+- Label `Job Alerts` exists. Existing LinkedIn alert threads are labelled.
+- No Gmail filter is needed: each weekly run searches this query and labels what it finds:
+  `from:(jobalerts-noreply@linkedin.com OR indeed.com OR indeedmail.com OR bayt.com OR gulftalent.com OR naukrigulf.com OR glassdoor.com) newer_than:8d`
+- LinkedIn alerts already arrive from `jobalerts-noreply@linkedin.com`, but the current ones are for "Project Manager". Replace them with the searches below.
 
-## 2. Saved searches (daily alerts)
+## 2. Saved searches (daily alerts) — Ahmed, signed in to each site
 Use these titles, one alert each, per site. Seniority filter: Director / Senior / Manager. Date posted: last 24 hours.
 
 | Site | Titles | Locations |

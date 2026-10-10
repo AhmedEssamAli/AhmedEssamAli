@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build the ATS resume (DOCX + PDF) from profile/career.yaml."""
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -172,10 +173,15 @@ def main():
     docx = out / f"{BASENAME}.docx"
     pdf = out / f"{BASENAME}.pdf"
     build_docx(d, docx)
-    subprocess.run(["soffice", "--headless", "--convert-to", "pdf", "--outdir", str(out), str(docx)],
+    print(docx)
+    # PDF needs LibreOffice; on a PC without it, the DOCX alone is enough for ATS portals.
+    soffice = shutil.which("soffice") or shutil.which("libreoffice")
+    if not soffice:
+        print("LibreOffice not found: PDF skipped")
+        return
+    subprocess.run([soffice, "--headless", "--convert-to", "pdf", "--outdir", str(out), str(docx)],
                    check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     pages = len(PdfReader(str(pdf)).pages)
-    print(docx)
     print(pdf)
     print(f"Pages: {pages}")
 

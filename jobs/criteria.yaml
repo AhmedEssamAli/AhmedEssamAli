@@ -21,3 +21,4 @@ scoring:  # 0-100
   location_and_visa_feasibility: 10
   salary_vs_estimate: 10
 min_score_to_shortlist: 65
+ats_match_target: 85   # percent, per jobs/TAILORING.md

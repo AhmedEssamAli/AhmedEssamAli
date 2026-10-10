@@ -12,7 +12,7 @@ exclude:
   - roles requiring security clearance or citizenship
   - agent, team leader or supervisor level
   - postings older than 21 days
-salary_floor: TBD  # Ahmed sets after week 1. Until then, use market estimates only.
+salary_floor: "Net monthly 4000 EUR, or 240000 EGP, or 5000 USD (set by Ahmed 2026-10-10; net, period assumed monthly)"
 weekly_target: 15
 scoring:  # 0-100
   title_and_seniority_fit: 30

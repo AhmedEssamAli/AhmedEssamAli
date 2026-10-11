@@ -120,6 +120,9 @@ def build_docx(d, path):
     add_run(p, " | ".join([c["location"], c["phone"], c["email"], c["linkedin"]]))
     p = doc.add_paragraph(); fmt(p, 0, 0, WD_ALIGN_PARAGRAPH.CENTER)
     add_run(p, c["relocation"])
+    if c.get("personal"):  # Gulf variant: nationality and notice period
+        p = doc.add_paragraph(); fmt(p, 0, 0, WD_ALIGN_PARAGRAPH.CENTER)
+        add_run(p, c["personal"])
 
     heading(doc, "Summary")
     p = doc.add_paragraph(); fmt(p)
@@ -168,10 +171,16 @@ def main():
     data = Path(sys.argv[1]) if len(sys.argv) > 1 else DATA
     out = Path(sys.argv[2]) if len(sys.argv) > 2 else OUT
     d = yaml.safe_load(data.read_text(encoding="utf-8"))
+    if "base" in d:  # variant file: overlay its keys on the base profile
+        base = yaml.safe_load((data.parent / d.pop("base")).read_text(encoding="utf-8"))
+        base["contact"].update(d.pop("contact", {}))
+        base.update(d)
+        d = base
+    basename = d.pop("output_name", BASENAME)
     d.pop("needs_confirmation", None)
     out.mkdir(parents=True, exist_ok=True)
-    docx = out / f"{BASENAME}.docx"
-    pdf = out / f"{BASENAME}.pdf"
+    docx = out / f"{basename}.docx"
+    pdf = out / f"{basename}.pdf"
     build_docx(d, docx)
     print(docx)
     # PDF needs LibreOffice; on a PC without it, the DOCX alone is enough for ATS portals.

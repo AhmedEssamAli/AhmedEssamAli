@@ -3,8 +3,13 @@ role_families:
   ops_leadership: [Director of Operations, Senior Operations Manager, Head of Contact Center, Contact Center Director, Head of Customer Experience, VP Customer Operations]
   client_management: [Client Services Director, Account Director, Strategic Account Manager, Client Partner, Head of Client Services]
   transformation: [CX Transformation Manager, Digital Transformation Manager, Customer Operations Excellence Lead, AI Operations Lead]
-  consulting: [Contact Center Consultant, CX Consultant, COPC Consultant, Fractional Head of CX]
-locations: [Remote, United Arab Emirates, Saudi Arabia, Canada, United States, United Kingdom, Ireland, Netherlands, Germany, Portugal, Spain, Poland]
+  consulting: [Contact Center Consultant, CX Consultant, COPC Consultant, Fractional Head of CX, Operations Consultant, Management Consultant (Operations)]
+  any_vertical_operations: [Head of Operations, Operations Director, General Manager Operations, Shared Services / GBS Lead, Service Delivery Director, Strategy & Operations Lead]
+  any_vertical_customer: [Head of Customer Service, Customer Care Director, Customer Success Director, Head of Customer Operations, Customer Experience Director]
+  any_vertical_excellence: [Business Excellence Manager, Operational Excellence Lead, Process Excellence Manager, Continuous Improvement Lead, Program / Programme Manager, PMO Lead]
+  any_vertical_partners: [Vendor Management Director, Outsourcing Manager, Partner Operations Lead, Relationship Director, Key Account Director]
+industries: any  # banking, telecom, airlines, retail, e-commerce, healthcare, government, tech, logistics, BPO: no preference
+locations: [Remote, United Arab Emirates, Saudi Arabia, Qatar, Egypt, Canada, United States, United Kingdom, Ireland, Netherlands, Germany, Portugal, Spain, Poland]
 sources: [LinkedIn Jobs, Indeed, Bayt, GulfTalent, Glassdoor, company career pages]
 seniority: [Manager, Senior Manager, Director, Head]
 exclude:
@@ -12,12 +17,12 @@ exclude:
   - roles requiring security clearance or citizenship
   - agent, team leader or supervisor level
   - postings older than 21 days
-salary_floor: "Net monthly 4000 EUR, or 240000 EGP, or 5000 USD (set by Ahmed 2026-10-10; net, period assumed monthly)"
+salary_floor: "Net monthly EUR 4,000 (EU, UK), USD 5,000 (Gulf, US, Canada, remote), EGP 240,000 (Egypt). Gross annual floors per country: jobs/salary_floor.yaml (regenerate with python3 jobs/salary_floor.py)."
 weekly_target: 15
 scoring:  # 0-100
   title_and_seniority_fit: 30
   keyword_match_vs_resume: 30
-  industry (BPO, CX, contact center, telecom, e-commerce, travel, tech): 20
+  transferable_function_fit (ops scale, P&L, client, CX, transformation; industry-neutral): 20
   location_and_visa_feasibility: 10
   salary_vs_estimate: 10
 min_score_to_shortlist: 65

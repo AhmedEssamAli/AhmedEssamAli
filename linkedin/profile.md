@@ -3,7 +3,7 @@
 Purpose: make LinkedIn match the resume. Recruiters compare both. Every fact below comes from `profile/career.yaml`.
 
 ## Headline (220 chars max)
-Client Services Manager at TP | BPO & CX Operations Leader | Digital Transformation & GenAI | Lean Six Sigma Green Belt | COPC | EMBA
+Client Services Manager at TP | Operations & Client Services Leader | Customer Experience & Digital Transformation | GenAI | Lean Six Sigma Green Belt | COPC | EMBA
 
 ## Open to work settings
 Titles: Director of Operations, Head of Customer Experience, Client Services Director, Account Director, CX Transformation Manager, Contact Center Consultant.

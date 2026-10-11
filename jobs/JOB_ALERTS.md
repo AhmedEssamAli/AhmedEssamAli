@@ -9,13 +9,13 @@ Why: Bayt and GulfTalent block bots, and LinkedIn, Indeed and Glassdoor need a l
 - LinkedIn alerts already arrive from `jobalerts-noreply@linkedin.com`, but the current ones are for "Project Manager". Replace them with the searches below.
 
 ## 2. Saved searches (daily alerts) — Ahmed, signed in to each site
-Use these titles, one alert each, per site. Seniority filter: Director / Senior / Manager. Date posted: last 24 hours.
+Use these titles, one alert each, per site. Any industry: banking, telecom, airlines, retail, government, tech, BPO. Seniority filter: Director / Senior / Manager. Date posted: last 24 hours.
 
 | Site | Titles | Locations |
 |---|---|---|
-| LinkedIn | Director of Operations contact center; Head of Customer Experience; Client Services Director; CX Transformation; Contact Center Director | United Arab Emirates; Saudi Arabia; Canada; European Union; United Kingdom; Remote |
+| LinkedIn | Head of Operations; Operations Director; Head of Customer Experience; Customer Service Director; Client Services Director; Service Delivery Director; Operational Excellence; Transformation Manager | United Arab Emirates; Saudi Arabia; Canada; European Union; United Kingdom; Remote |
 | Indeed | Contact Center Director; Head of Customer Experience; Client Services Director; Customer Operations Director | Remote; Toronto; Dubai (ae.indeed.com); London (uk.indeed.com) |
-| Bayt | Customer Experience Manager; Contact Center Manager; Client Services Director | UAE; Saudi Arabia; Qatar |
+| Bayt | Operations Manager; Head of Operations; Customer Experience Manager; Customer Service Manager; Client Services Director; Business Excellence Manager | UAE; Saudi Arabia; Qatar |
 | GulfTalent | Head of Contact Centre; Customer Service Director; Customer Experience | UAE; Saudi Arabia |
 | Naukrigulf | Call Center Manager; Customer Experience Head | UAE; Saudi Arabia |
 

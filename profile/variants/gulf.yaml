@@ -1,0 +1,6 @@
+# Bayt / GulfTalent variant. Overlays profile/career.yaml; facts stay in the base file.
+base: ../career.yaml
+output_name: Ahmed_Essam_Ali_Resume_Gulf
+contact:
+  relocation: Open to relocation to UAE, Saudi Arabia and Qatar; also open to remote roles
+  personal: "Nationality: Egyptian | Notice period: 1 month"

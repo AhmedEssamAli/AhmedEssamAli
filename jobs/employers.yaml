@@ -1,5 +1,5 @@
 # Verified 2026-10-10: each returned HTTP 200 + valid JSON with open jobs.
-# ats: greenhouse | lever | ashby | smartrecruiters | workable
+# ats: greenhouse | lever | ashby | smartrecruiters | workable (slug) | workday (host, tenant, site)
 
 bpo:
   - {name: "TELUS Digital", ats: ashby, slug: telus-digital}
@@ -72,3 +72,94 @@ gulf_and_emea_brands:
   - {name: "Stripe", ats: greenhouse, slug: stripe}
   - {name: "BlaBlaCar", ats: lever, slug: blablacar}
   - {name: "Trade Republic", ats: greenhouse, slug: traderepublic}
+
+# ---- multi-vertical expansion (any industry) ----
+
+workday_banking:
+  - {name: "Mastercard", ats: workday, host: mastercard.wd1.myworkdayjobs.com, tenant: mastercard, site: CorporateCareers}
+  - {name: "Visa", ats: workday, host: visa.wd5.myworkdayjobs.com, tenant: visa, site: Visa}
+  - {name: "PayPal", ats: workday, host: paypal.wd1.myworkdayjobs.com, tenant: paypal, site: jobs}
+  - {name: "Citi", ats: workday, host: citi.wd5.myworkdayjobs.com, tenant: citi, site: 2}
+  - {name: "Deutsche Bank", ats: workday, host: db.wd3.myworkdayjobs.com, tenant: db, site: DBWebsite}
+  - {name: "Barclays", ats: workday, host: barclays.wd3.myworkdayjobs.com, tenant: barclays, site: External_Career_Site_Barclays}
+  - {name: "Santander", ats: workday, host: santander.wd3.myworkdayjobs.com, tenant: santander, site: santandercareers}
+  - {name: "BBVA", ats: workday, host: bbva.wd3.myworkdayjobs.com, tenant: bbva, site: bbva}
+  - {name: "State Street", ats: workday, host: statestreet.wd1.myworkdayjobs.com, tenant: statestreet, site: Global}
+  - {name: "Wells Fargo", ats: workday, host: wf.wd1.myworkdayjobs.com, tenant: wf, site: WellsFargoJobs}
+  - {name: "Capital One", ats: workday, host: capitalone.wd12.myworkdayjobs.com, tenant: capitalone, site: Capital_One}
+  - {name: "RBC", ats: workday, host: rbc.wd3.myworkdayjobs.com, tenant: rbc, site: RBCGlobal1}
+  - {name: "TD Bank", ats: workday, host: td.wd3.myworkdayjobs.com, tenant: td, site: TD_Bank_Careers}
+  - {name: "BMO", ats: workday, host: bmo.wd3.myworkdayjobs.com, tenant: bmo, site: External}
+  - {name: "CIBC", ats: workday, host: cibc.wd3.myworkdayjobs.com, tenant: cibc, site: Search}
+
+workday_insurance:
+  - {name: "Manulife", ats: workday, host: manulife.wd3.myworkdayjobs.com, tenant: manulife, site: MFCJH_Jobs}
+  - {name: "Sun Life", ats: workday, host: sunlife.wd3.myworkdayjobs.com, tenant: sunlife, site: Experienced}
+  - {name: "AIG", ats: workday, host: aig.wd1.myworkdayjobs.com, tenant: aig, site: aig}
+  - {name: "Prudential", ats: workday, host: prudential.wd3.myworkdayjobs.com, tenant: prudential, site: prudential}
+  - {name: "Aviva", ats: workday, host: aviva.wd1.myworkdayjobs.com, tenant: aviva, site: External}
+
+workday_tech:
+  - {name: "Salesforce", ats: workday, host: salesforce.wd12.myworkdayjobs.com, tenant: salesforce, site: External_Career_Site}
+  - {name: "Adobe", ats: workday, host: adobe.wd5.myworkdayjobs.com, tenant: adobe, site: external_experienced}
+  - {name: "NVIDIA", ats: workday, host: nvidia.wd5.myworkdayjobs.com, tenant: nvidia, site: NVIDIAExternalCareerSite}
+  - {name: "Cisco", ats: workday, host: cisco.wd5.myworkdayjobs.com, tenant: cisco, site: Cisco_Careers}
+  - {name: "Intel", ats: workday, host: intel.wd1.myworkdayjobs.com, tenant: intel, site: External}
+  - {name: "HP", ats: workday, host: hp.wd5.myworkdayjobs.com, tenant: hp, site: ExternalCareerSite}
+  - {name: "Autodesk", ats: workday, host: autodesk.wd1.myworkdayjobs.com, tenant: autodesk, site: Ext}
+  - {name: "Workday", ats: workday, host: workday.wd5.myworkdayjobs.com, tenant: workday, site: Workday}
+  - {name: "Zoom", ats: workday, host: zoom.wd5.myworkdayjobs.com, tenant: zoom, site: Zoom}
+
+workday_consulting:
+  - {name: "Accenture", ats: workday, host: accenture.wd103.myworkdayjobs.com, tenant: accenture, site: AccentureCareers}
+  - {name: "PwC", ats: workday, host: pwc.wd3.myworkdayjobs.com, tenant: pwc, site: Global_Experienced_Careers}
+  - {name: "Genpact", ats: workday, host: genpact.wd108.myworkdayjobs.com, tenant: genpact, site: External_Careers}
+
+workday_logistics_travel_energy:
+  - {name: "Maersk", ats: workday, host: maersk.wd3.myworkdayjobs.com, tenant: maersk, site: Maersk_Careers}
+  - {name: "Expedia", ats: workday, host: expedia.wd108.myworkdayjobs.com, tenant: expedia, site: search}
+  - {name: "Shell", ats: workday, host: shell.wd3.myworkdayjobs.com, tenant: shell, site: ShellCareers}
+
+workday_consumer_healthcare:
+  - {name: "Philips", ats: workday, host: philips.wd3.myworkdayjobs.com, tenant: philips, site: jobs-and-careers}
+  - {name: "Unilever", ats: workday, host: unilever.wd3.myworkdayjobs.com, tenant: unilever, site: Unilever_Experienced_Professionals}
+  - {name: "P&G", ats: workday, host: pg.wd5.myworkdayjobs.com, tenant: pg, site: 1000}
+  - {name: "Target", ats: workday, host: target.wd5.myworkdayjobs.com, tenant: target, site: targetcareers}
+  - {name: "Kenvue", ats: workday, host: kenvue.wd5.myworkdayjobs.com, tenant: kenvue, site: Kenvue}
+  - {name: "3M", ats: workday, host: 3m.wd1.myworkdayjobs.com, tenant: 3m, site: Search}
+  - {name: "Pfizer", ats: workday, host: pfizer.wd1.myworkdayjobs.com, tenant: pfizer, site: pfizercareers}
+  - {name: "Novartis", ats: workday, host: novartis.wd3.myworkdayjobs.com, tenant: novartis, site: novartis_careers}
+  - {name: "GSK", ats: workday, host: gsk.wd5.myworkdayjobs.com, tenant: gsk, site: gskcareers}
+  - {name: "AstraZeneca", ats: workday, host: astrazeneca.wd3.myworkdayjobs.com, tenant: astrazeneca, site: Careers}
+  - {name: "Sanofi", ats: workday, host: sanofi.wd3.myworkdayjobs.com, tenant: sanofi, site: sanoficareers}
+  - {name: "Abbott", ats: workday, host: abbott.wd5.myworkdayjobs.com, tenant: abbott, site: abbottcareers}
+  - {name: "Medtronic", ats: workday, host: medtronic.wd1.myworkdayjobs.com, tenant: medtronic, site: medtroniccareers}
+  - {name: "Thermo Fisher", ats: workday, host: thermofisher.wd5.myworkdayjobs.com, tenant: thermofisher, site: ThermoFisherCareers}
+  - {name: "Baxter", ats: workday, host: baxter.wd1.myworkdayjobs.com, tenant: baxter, site: baxter}
+  - {name: "CVS Health", ats: workday, host: cvshealth.wd1.myworkdayjobs.com, tenant: cvshealth, site: cvs_health_careers}
+  - {name: "Humana", ats: workday, host: humana.wd5.myworkdayjobs.com, tenant: humana, site: Humana_External_Career_Site}
+  - {name: "Cigna", ats: workday, host: cigna.wd5.myworkdayjobs.com, tenant: cigna, site: cignacareers}
+
+other_ats_multi_vertical:
+  - {name: "Coinbase", ats: greenhouse, slug: coinbase}
+  - {name: "Robinhood", ats: greenhouse, slug: robinhood}
+  - {name: "Chime", ats: greenhouse, slug: chime}
+  - {name: "Affirm", ats: greenhouse, slug: affirm}
+  - {name: "Block", ats: greenhouse, slug: block}
+  - {name: "Payoneer", ats: greenhouse, slug: payoneer}
+  - {name: "Nium", ats: lever, slug: nium}
+  - {name: "Airwallex", ats: ashby, slug: airwallex}
+  - {name: "Instacart", ats: greenhouse, slug: instacart}
+  - {name: "Toast", ats: greenhouse, slug: toast}
+  - {name: "Datadog", ats: greenhouse, slug: datadog}
+  - {name: "Okta", ats: greenhouse, slug: okta}
+  - {name: "Cloudflare", ats: greenhouse, slug: cloudflare}
+  - {name: "MongoDB", ats: greenhouse, slug: mongodb}
+  - {name: "Elastic", ats: greenhouse, slug: elastic}
+  - {name: "Snowflake", ats: ashby, slug: snowflake}
+  - {name: "Databricks", ats: greenhouse, slug: databricks}
+  - {name: "Spotify", ats: lever, slug: spotify}
+  - {name: "Flexport", ats: greenhouse, slug: flexport}
+  - {name: "project44", ats: greenhouse, slug: project44}
+  - {name: "Aldar", ats: lever, slug: aldar}
+  - {name: "Masdar", ats: smartrecruiters, slug: masdar}

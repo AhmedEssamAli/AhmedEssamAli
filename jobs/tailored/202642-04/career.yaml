@@ -1,0 +1,141 @@
+name: Ahmed Essam Ali
+headline: Director, Client Success & Business Planning | Client Relationship Management, Portfolio Governance, KPI Scorecards, QBRs | Generative AI | EMBA
+summary: 'Client Services Manager with 12+ years at Teleperformance (TP), owning the client relationship, P&L, SLAs and quarterly business reviews (QBRs) for a 2,100+ person multi-client operation. Presents business and technology improvement roadmaps to clients, handles escalations and executive business reviews, and drives cross-functional delivery with business development. Negotiated renewals and scope expansions worth $2M and grew revenue 42.6% on the US telecommunications account. Analytical: Power BI dashboards, SQL and Python; deployed GenAI tools. EMBA (Cardiff) and Electrical Engineering degree (Cairo University).'
+experience:
+- title: Client Services Manager
+  company: Teleperformance (TP)
+  location: Cairo, Egypt
+  start: May 2024
+  end: Present
+  bullets:
+  - Own client escalations, executive business reviews and stakeholder alignment; set customer-centricity milestones and track delivery against them.
+  - Lead a 2,100+ employee multi-line operation serving the US market through 3 Contact Center Managers, owning client relationship, P&L, SLAs and quarterly business reviews.
+  - Negotiated contract renewals and scope expansions with key clients, adding $2M in revenue.
+  - Present business and technology improvement roadmaps to clients at annual summits and QBRs.
+  - Partnered with Business Development to launch 3 new lines of business in 12 months, driving 127% headcount growth in 2024.
+  - Deployed GenAI agent-assist chatbots and automation tools, replacing 50% of support coaches needed for nesting during speed-to-proficiency.
+  - Grew revenue 42.6% on the US telecommunications account since taking the role in May 2024.
+  - Mentored 6 Operations Managers through the GROW program (20+ workshops).
+- title: Operations Manager
+  company: Teleperformance (TP)
+  location: Cairo, Egypt
+  start: Mar 2022
+  end: May 2024
+  bullets:
+  - Delivered digital transformation program that cut operating cost 12% and improved service delivery time 35%.
+  - Raised customer satisfaction (CSAT) 17% by implementing COPC standards and continuous improvement.
+  - Sponsored 2 Lean Six Sigma projects that raised employee satisfaction 11% and reduced annualized attrition 36.2%.
+  - Designed self-service and in-app AI deflection strategy that reduced contact rate 14%.
+  - Built Power BI dashboards with intelligent-routing and voice-of-customer analytics, giving leaders real-time drill-down on all KPIs.
+  - Led training and accreditation programs that lifted product accreditation rates 20.35%.
+- title: Assistant Contact Center Manager
+  company: Teleperformance (TP)
+  location: Cairo, Egypt
+  start: May 2020
+  end: Mar 2022
+  bullets:
+  - Built a speed-to-competency framework for new hires and trained supervisors on new KPIs and client processes.
+  - Created MIS and P&L reporting in Power BI from scratch (revenue, direct cost, gross margin), enabling real-time corrective action.
+  - Owned monthly forecasting and capacity planning for revenue, facilities and resources; prepared budgets and analyzed variances.
+  - Developed a risk management framework that reduced operational risk incidents 43% and strengthened regulatory compliance.
+  - Launched one of the largest e-commerce programs in MENA, ramping 400+ agents in one quarter with all KPIs green from go-live.
+  - Coached 11 supervisors through Educational Learning Plans.
+  - Applied COPC and TOPS standards across front and back office; redesigned the KPI matrix for end-to-end customer experience visibility.
+- title: Operations Supervisor
+  company: Teleperformance (TP)
+  location: Cairo, Egypt
+  start: Aug 2019
+  end: May 2020
+  bullets:
+  - Ran training workshops that improved first-contact resolution 10%.
+  - Managed and coached a team of 32 travel-sector agents, auditing transactions in the Sabre GDS.
+  - Applied Six Sigma tools to isolate performance outliers, reducing average handle time 14%.
+  - Achieved the highest customer satisfaction rating in the department for 2 consecutive quarters.
+- title: Tier 2 Back Office Specialist
+  company: Teleperformance (TP)
+  location: Cairo, Egypt
+  start: Sep 2015
+  end: Aug 2019
+  bullets:
+  - Supported rollout of a new CRM system, improving data accuracy and reporting through SQL Server.
+  - Onboarded and trained new team members, reducing nesting time 10%.
+  - Resolved escalated travel bookings and deferred transactions for the travel line of business.
+- title: Travel Consultant
+  company: Teleperformance (TP)
+  location: Cairo, Egypt
+  start: Jul 2014
+  end: Sep 2015
+  bullets:
+  - Handled sales and customer service for travel bookings, sustaining over 95% first-contact resolution.
+  - Named Employee of the Month twice for performance and customer feedback.
+education:
+- degree: Executive Master of Business Administration (Global EMBA)
+  school: Cardiff School of Business (Cardiff Institute, United Kingdom)
+  date: Nov 2023
+- degree: Bachelor of Science, Electrical and Electronics Engineering
+  school: Cairo University
+  date: 2017
+certifications:
+- name: Lean Six Sigma Green Belt
+  date: Jan 2021
+- name: COPC Certified Implementation Leader
+  date: May 2019
+- name: ALX AI Career Essentials (AiCE)
+  date: Aug 2024
+- name: TICO Certification
+  date: '2014'
+- name: Data Analysis Nanodegree, Udacity
+  date: Jul 2022
+- name: Web Development Professional Nanodegree, Udacity
+  date: '2021'
+skills:
+  leadership:
+  - Client Relationship Management
+  - Stakeholder Management
+  - Account Management
+  - P&L Management
+  - Vendor Management
+  - Team Leadership
+  - Program Launch
+  - Contract Negotiation
+  operations:
+  - Risk Management
+  - Contact Center Operations
+  - BPO / Outsourcing
+  - Customer Experience (CX)
+  - Omnichannel
+  - Workforce Management (WFM)
+  - Capacity Planning
+  - Forecasting
+  - Budgeting
+  - SLA and KPI Management
+  - Quality Assurance
+  improvement:
+  - Generative AI
+  - Digital Transformation
+  - Lean Six Sigma
+  - COPC
+  - Process Improvement
+  - Root Cause Analysis
+  - Change Management
+  - Automation
+  - Self-Service
+  tools:
+  - Power BI
+  - Power Query
+  - SQL
+  - Python
+  - Microsoft Excel
+  - CRM
+  - Sabre GDS
+languages:
+- Arabic (Native)
+- English (Full Professional)
+- French (Limited Working)
+- German (Elementary)
+needs_confirmation: []
+base: ../../../profile/career.yaml
+output_name: Ahmed_Essam_Ali_Resume
+contact:
+  relocation: Open to relocation to UAE, Saudi Arabia and Qatar; also open to remote roles
+  personal: 'Nationality: Egyptian | Notice period: 1 month'
